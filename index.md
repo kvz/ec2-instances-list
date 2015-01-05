@@ -26,7 +26,7 @@ Networking speed is a megabit estimation based on Amazon's rather vague "low to 
 
 ## Todo
 
- 1. [ ] Get love by someone who knows how to front-end (css, theme, better sorter?)
+ 1. [ ] Get love by someone who knows how to front-end (css, theme, better sorter)
  1. [ ] List completeness
  1. [ ] Automatically update pricing
  1. [ ] More accurate network speed estimations
