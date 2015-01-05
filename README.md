@@ -73,3 +73,8 @@ For editting in SublimeText:
  - Make changes
  - Select rows
  - CMD+P: Table Cleaner: Align Table
+
+## Todo
+
+Might be cool to generate a GitHub Page with http://www.kryogenix.org/code/browser/sorttable/
+
