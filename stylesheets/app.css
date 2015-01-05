@@ -4,7 +4,7 @@ div.sortable table {
 }
 
 div.sortable thead {
-  background-color:#eee;
+  background-color:#F7F7F7;
   color:#666666;
   font-weight: bold;
   cursor: default;
@@ -17,6 +17,14 @@ div.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sortt
 
 div.sortable th {
   font-size: 90%;
+}
+
+div.sortable tbody tr:nth-child(2n) td {
+  background: #FAFAFA;
+}
+
+div.sortable tbody tr:nth-child(2n+1) td {
+  background: #FCFCFC;
 }
 
 div.sortable td {
