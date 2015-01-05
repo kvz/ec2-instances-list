@@ -36,7 +36,7 @@ Networking speed is a megabit estimation based on Amazon's rather vague "low to 
 
 ## Contributing
 
-If you have improvements you can [directly hack on the CSV file](https://raw.githubusercontent.com/transloadit/ec2-instances-list/gh-pages/ec2-instances-list.csv)
+If you have improvements you can [directly hack on the CSV file](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/ec2-instances-list.csv)
 
 If you prefer hacking locally in SublimeText, the [Advanced CSV](https://github.com/wadetb/Sublime-Text-Advanced-CSV) plugin works quite well for sorting and tidying things up.
 
