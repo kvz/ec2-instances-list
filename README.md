@@ -1,6 +1,12 @@
 ec2-instances-list
 ==================
 
+Pricing based on:
+
+ - North Virginia (eu-west-1)
+ - Linux
+ - 1/5/2015
+
 | CanUse           | Name        | vCPU           | ECU  | Memory (GiB) | Instance Storage (GB) | Net. Ephemeral GB | Networking Speed | Price  | Spot Price | Generation | Family            |
 |------------------|-------------|----------------|------|--------------|-----------------------|-------------------|------------------|--------|------------|------------|-------------------|
 | #ERROR!          | m1.small    | 1              | 1    | 1.7          | 1 x 160               | 160               | low              | $0.044 | $0.0071    | 1          | General Purpose   |
