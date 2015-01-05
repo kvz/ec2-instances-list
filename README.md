@@ -51,7 +51,10 @@ Pricing based on:
 
  - North Virginia (eu-west-1)
  - Linux
- - 1/5/2015
+ - 2015-01-05
+ - https://aws.amazon.com/blogs/aws/new-c4-instances/
+ - https://aws.amazon.com/ec2/pricing/
+ - https://aws.amazon.com/ec2/previous-generation/
 
 Since used `t` ECUs are variable, we set 0.1, 0.2, 0.3, to still allow somewhat sensible sorting.
 
