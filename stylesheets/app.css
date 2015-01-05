@@ -1,0 +1,31 @@
+div.sortable table {
+  z-index: 99999999;
+  position: relative;
+}
+
+div.sortable thead {
+  background-color:#eee;
+  color:#666666;
+  font-weight: bold;
+  cursor: default;
+  z-index: 9;
+}
+
+div.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+  content: " \25B4\25BE"
+}
+
+div.sortable th {
+  font-size: 90%;
+}
+
+div.sortable td {
+  white-space: nowrap;
+  font-size: 84%;
+  padding: 1px 6px;
+}
+
+/* So it does not overlap with our main feature, the table */
+aside#sidebar {
+  background-image: none;
+}
