@@ -5,7 +5,7 @@ install:
 	pip3 install csvtomd
 
 build: install
-	cat ec2-instances-list.csv | sed 's/ *,/,/g' > tmp.csv
+	cat ec2-instances-list.csv | sed -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'> tmp.csv
 	csvtomd tmp.csv > ec2-instances-list.md
 	rm -f tmp.csv
 	cp -af ec2-instances-list.md _includes/
