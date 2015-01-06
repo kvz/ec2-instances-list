@@ -15,7 +15,8 @@ preview: build
 	jekyll serve --watch
 
 deploy: build
-	echo "deploy"
+	git add --all .
+	git commit -am "Update site"
 
 .PHONY: \
 	install \

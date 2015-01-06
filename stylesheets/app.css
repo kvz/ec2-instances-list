@@ -1,6 +1,15 @@
 div.sortable table {
-  z-index: 99999999;
+  z-index: 10;
   position: relative;
+}
+
+div.sortable th, div.sortable td {
+  font-size: 90%;
+  padding: 1px 6px;
+}
+div.sortable td {
+  white-space: nowrap;
+  font-size: 84%;
 }
 
 div.sortable thead {
@@ -11,26 +20,12 @@ div.sortable thead {
   z-index: 9;
 }
 
-div.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
-  content: " \25B4\25BE"
-}
-
-div.sortable th {
-  font-size: 90%;
-}
-
 div.sortable tbody tr:nth-child(2n) td {
   background: #FAFAFA;
 }
 
 div.sortable tbody tr:nth-child(2n+1) td {
   background: #FCFCFC;
-}
-
-div.sortable td {
-  white-space: nowrap;
-  font-size: 84%;
-  padding: 1px 6px;
 }
 
 /* So it does not overlap with our main feature, the table */
