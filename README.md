@@ -1,3 +1,9 @@
+---
+layout: default
+title: EC2 Instances List
+permalink: /
+---
+
 # ec2-instances-list
 
 At [Transloadit](https://transloadit.com) we tried to find the optimal instance types for our workloads. That doesn't automatically mean the latest/biggest box. You might be able to squeeze more performance out of your dollar if you deploy a multitude of smaller boxes. And then there's network speeds, "free" ephemeral storage, reserved/spot prices, legacy, etc to consider.
