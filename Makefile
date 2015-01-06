@@ -9,7 +9,6 @@ build: install
 	csvtomd tmp.csv > ec2-instances-list.md
 	rm -f tmp.csv
 	cp -af ec2-instances-list.md _includes/
-	cp -af README.md _includes/
 
 preview: build
 	jekyll serve --watch
