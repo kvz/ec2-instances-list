@@ -1,6 +1,6 @@
-name         |  vcpu  |  ecu   |  ram     |  ephemeral_devices  |  ephemeral_storage  |  network          |  price   |  spot        |  price_mo       |  spot_mo             |  generation  |  family           
+name         |  vcpu  |  ecu   |  ram     |  eph_devices        |  eph_storage        |  network          |  price   |  spot        |  price_mo       |  spot_mo             |  generation  |  family           
 -------------|--------|--------|----------|---------------------|---------------------|-------------------|----------|--------------|-----------------|----------------------|--------------|-------------------
-t1.micro     |  1     |  0.1   |  0.615   |  EBS Only           |  0                  |  10               |  $0.020  |  $0.0031     |  $14.8800       |  $2.3064             |  1           |  General Purpose  
+t1.micro     |  1     |  0.1   |  0.615   |  N/A                |  0                  |  10               |  $0.020  |  $0.0031     |  $14.8800       |  $2.3064             |  1           |  General Purpose  
 m1.small     |  1     |  1     |  1.7     |  1 x 160            |  160                |  50               |  $0.044  |  $0.0071     |  $32.7360       |  $5.2824             |  1           |  General Purpose  
 m1.medium    |  1     |  2     |  3.75    |  1 x 410            |  410                |  100              |  $0.087  |  $0.0081     |  $64.7280       |  $6.0264             |  1           |  General Purpose  
 m1.large     |  2     |  4     |  7.5     |  2 x 420            |  420                |  100              |  $0.175  |  $0.0161     |  $130.2000      |  $11.9784            |  1           |  General Purpose  
@@ -11,9 +11,9 @@ cg1.4xlarge  |  16    |  33.5  |  22.5    |  2 x 840            |  1680         
 cr1.8xlarge  |  32    |  88    |  244     |  2 x 120 SSD        |  240                |  10000            |  $3.500  |              |  $2604.0000     |                      |  1           |  Memory Optimized 
 hi1.4xlarge  |  16    |  35    |  60.5    |  2 x 1024 SSD       |  2048               |  10000            |  $3.100  |              |  $2306.4000     |                      |  1           |  Storage Optimized
 hs1.8xlarge  |  16    |  35    |  117     |  24 x 2048          |  49152              |  100              |  $4.600  |  $0.1300     |  $3422.4000     |  $96.7200            |  1           |  Storage Optimized
-t2.micro     |  1     |  0.1   |  1       |  EBS Only           |  0                  |  75               |  $0.013  |              |  $9.6720        |                      |  2           |  General Purpose  
-t2.small     |  1     |  0.2   |  2       |  EBS Only           |  0                  |  75               |  $0.026  |              |  $19.3440       |                      |  2           |  General Purpose  
-t2.medium    |  2     |  0.3   |  4       |  EBS Only           |  0                  |  75               |  $0.052  |              |  $38.6880       |                      |  2           |  General Purpose  
+t2.micro     |  1     |  0.1   |  1       |  N/A                |  0                  |  75               |  $0.013  |              |  $9.6720        |                      |  2           |  General Purpose  
+t2.small     |  1     |  0.2   |  2       |  N/A                |  0                  |  75               |  $0.026  |              |  $19.3440       |                      |  2           |  General Purpose  
+t2.medium    |  2     |  0.3   |  4       |  N/A                |  0                  |  75               |  $0.052  |              |  $38.6880       |                      |  2           |  General Purpose  
 m2.xlarge    |  2     |  6.5   |  17.1    |  1 x 420            |  420                |  100              |  $0.245  |              |  $182.2800      |                      |  2           |  Memory Optimized 
 m2.2xlarge   |  4     |  13    |  34.2    |  1 x 850            |  850                |  100              |  $0.490  |              |  $364.5600      |                      |  2           |  Memory Optimized 
 m2.4xlarge   |  8     |  26    |  68.4    |  2 x 840            |  1680               |  1000             |  $0.980  |              |  $729.1200      |                      |  2           |  Memory Optimized 
