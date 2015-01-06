@@ -6,15 +6,17 @@ permalink: /
 
 # ec2-instances-list
 
-At [Transloadit](https://transloadit.com) we tried to find the optimal instance types for our workloads. That doesn't automatically mean the latest/biggest box. You might be able to squeeze more performance out of your dollar if you deploy a multitude of smaller boxes. And then there's network speeds, "free" ephemeral storage, reserved, spot prices, and extremely friendly priced legacy machine types to consider.
+Trying to find the optimal EC2 instance types for workloads doesn't automatically mean get the latest/biggest box. You might be able to squeeze more performance out of your dollar if you deploy a multitude of smaller boxes.
 
-With information about Amazon EC2 instances scattered [across](https://aws.amazon.com/blogs/aws/new-c4-instances/) [different](https://aws.amazon.com/ec2/pricing/) [pages](https://aws.amazon.com/ec2/previous-generation/) and different tables within those pages, it's not exactly easy to compare and discover what exactly offers the best bang for your situation.
+Machines that perform 20% slower are for instance priced 40% cheaper. Assuming your budget is finite and your platform scalable, you might be able to gain a higher total performance by using older machines.
 
-So we decided to collect all the metrics we can find, and put them in one community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
+At [Transloadit](https://transloadit.com) we're considering this life-hack, but with information about Amazon EC2 instances scattered [across](https://aws.amazon.com/blogs/aws/new-c4-instances/) [different](https://aws.amazon.com/ec2/pricing/) [pages](https://aws.amazon.com/ec2/previous-generation/) and different tables within those pages, it's not exactly easy to compare and discover what (for starters, on paper) offers the best bang for our buck.
 
-We use this to generate a [Markdown file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present this [sortable HTML table](https://transloadit.github.io/ec2-instances-list).
+So we decided to collect some metrics, and put them in a community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
 
-Import the csv in your favorite spreadsheet editor and do your calculations, or check our site and do some quick analysis just by sorting on some of our denormalized columns directly, such as the monthly costs or netto ephemeral storage.
+We'll use this to generate a [Markdown file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present this [sortable HTML table](https://transloadit.github.io/ec2-instances-list).
+
+Import the CSV in your favorite spreadsheet editor and do calculations, or check the site and do some quick analysis just by sorting on some of our denormalized columns, such as monthly costs or net ephemeral storage capacity.
 
 <div class="sortable" markdown="1">
 {% include ec2-instances-list.md %}

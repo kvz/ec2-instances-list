@@ -1,4 +1,4 @@
-Name       ,vCPU,ECU ,RAM GB,Storage (GB),Net. Storage (GB),Networking (Mb),Price ,Spot Price,Monthly Price,Monthly Spot Price,Generation,Family           
+Name       ,vCPU,ECU ,RAM GB,Storage (GB),Net Storage (GB) ,Networking (Mb),Price ,Spot Price,Monthly Price,Monthly Spot Price,Generation,Family           
 t2.micro   ,1   ,0.1 ,1     ,EBS Only    ,0                ,75             ,$0.013,          ,$9.6720      ,                  ,2         ,General Purpose  
 t1.micro   ,1   ,0.1 ,0.615 ,EBS Only    ,0                ,10             ,$0.020,$0.0031   ,$14.8800     ,$2.3064           ,1         ,General Purpose  
 t2.small   ,1   ,0.2 ,2     ,EBS Only    ,0                ,75             ,$0.026,          ,$19.3440     ,                  ,2         ,General Purpose  
@@ -36,3 +36,4 @@ i2.4xlarge ,16  ,53  ,122   ,4 x 800 SSD ,3200             ,1000           ,$3.4
 cr1.8xlarge,32  ,88  ,244   ,2 x 120 SSD ,240              ,10000          ,$3.500,          ,$2604.0000   ,                  ,1         ,Memory Optimized 
 hs1.8xlarge,16  ,35  ,117   ,24 x 2048   ,49152            ,100            ,$4.600,$0.1300   ,$3422.4000   ,$96.7200          ,1         ,Storage Optimized
 i2.8xlarge ,32  ,104 ,244   ,8 x 800 SSD ,6400             ,100            ,$6.820,          ,$5074.0800   ,                  ,2         ,Storage Optimized
+           

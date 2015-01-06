@@ -1,4 +1,4 @@
-Name         |  vCPU  |  ECU   |  RAM GB  |  Storage (GB)  |  Net. Storage (GB)  |  Networking (Mb)  |  Price   |  Spot Price  |  Monthly Price  |  Monthly Spot Price  |  Generation  |  Family           
+Name         |  vCPU  |  ECU   |  RAM GB  |  Storage (GB)  |  Net Storage (GB)   |  Networking (Mb)  |  Price   |  Spot Price  |  Monthly Price  |  Monthly Spot Price  |  Generation  |  Family           
 -------------|--------|--------|----------|----------------|---------------------|-------------------|----------|--------------|-----------------|----------------------|--------------|-------------------
 t2.micro     |  1     |  0.1   |  1       |  EBS Only      |  0                  |  75               |  $0.013  |              |  $9.6720        |                      |  2           |  General Purpose  
 t1.micro     |  1     |  0.1   |  0.615   |  EBS Only      |  0                  |  10               |  $0.020  |  $0.0031     |  $14.8800       |  $2.3064             |  1           |  General Purpose  
