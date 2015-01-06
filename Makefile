@@ -18,6 +18,7 @@ deploy: build
 	git commit -am "Update site" || true
 	git pull
 	git push
+	@echo "Check out https://kvz.github.io/ec2-instances-list"
 
 .PHONY: \
 	install \
