@@ -12,11 +12,11 @@ Machines that perform 20% slower are for instance priced 40% cheaper. Assuming y
 
 At [Transloadit](https://transloadit.com) we're considering this life-hack, but with information about Amazon EC2 instances scattered [across](https://aws.amazon.com/blogs/aws/new-c4-instances/) [different](https://aws.amazon.com/ec2/pricing/) [pages](https://aws.amazon.com/ec2/previous-generation/) and different tables within those pages, it's not exactly easy to compare and discover what (for starters, on paper) offers the best bang for our buck.
 
-So we decided to collect some metrics, and put them in a community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
+So we decided to collect the metrics, add some of our own (like monthly costs or net ephemeral storage) and put them in a community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
 
-We'll use this to generate a [Markdown file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present this [sortable HTML table](https://transloadit.github.io/ec2-instances-list).
+With the CSV we can generate a [Markdown table](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present [this sortable HTML table](https://transloadit.github.io/ec2-instances-list) for quick comparisions.
 
-Import the CSV in your favorite spreadsheet editor and do calculations, or check the site and do some quick analysis just by sorting on some of our denormalized columns, such as monthly costs or net ephemeral storage capacity.
+If you want to do deeper analysis, you can import the CSV into your database or favorite spreadsheet editor.
 
 <div class="sortable" markdown="1">
 {% include ec2-instances-list.md %}
