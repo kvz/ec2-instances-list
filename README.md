@@ -63,7 +63,7 @@ Site changes are deployed automatically thanks to GitHub pages. Data changes sti
 
 ## Thanks
 
-To [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort) and to our [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
+To [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort) and to the [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
 
  - [Kevin van Zonneveld](https://github.com/kvz)
 
