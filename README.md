@@ -25,7 +25,6 @@ If you want to do deeper analysis, you can import the CSV into your database or 
 {{ list | markdownify }}
 </div>
 
-
 ## Notes
 
  - Pricing based on Hosting on Linux in North Virginia (eu-west-1)
@@ -47,12 +46,12 @@ Networking speed is a megabit estimation based on Amazon's rather vague "low to 
  - [ ] List completeness
  - [ ] Automatically update pricing
  - [ ] More accurate network speed estimations
- - [ ] Use Travis to update the site automatically (as Github Pages won't do the csv->md translation)
+ - [ ] Use Travis to update the page automatically (as Github Pages won't do the csv->md translation)
  - [ ] Add Reserved Instance prices
  - [ ] Add a separate list for EBS volumes?
  - [x] Investigate if we can automatically update this [We can, partly](http://stackoverflow.com/questions/7334035/get-ec2-pricing-programmatically)
 
-## Contributing
+## Contribute Data
 
 If you have improvements you can [directly hack on ./ec2-instances-list.csv](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/ec2-instances-list.csv)
 
@@ -62,14 +61,21 @@ If you prefer hacking locally in SublimeText, the [Advanced CSV](https://github.
 
 ![](./images/sublime-text.png)
 
-If you want to work on this site, the same repo holding the CSV has a [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) that also serves as a homepage. It includes the generated `./ec2-instances-list.md` as our table.  
-Overriding CSS can be done in `./assets/app.css` and the layout is in `./_layouts/default.html`.
+## Contribute to Webpage
 
-Site changes are deployed automatically thanks to GitHub pages. Data changes still need a `make deploy` from anyone with push access, so that the `csv`->`md` conversion can take place.
+Our repository's [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) is turned into this webpage, sourcing `./ec2-instances-list.md` for the table. Overriding CSS can be done in `./assets/app.css` and the layout is in `./_layouts/default.html`.
+
+That's all. If you have Jekyll installed, you can preview changes locally via
+
+```bash
+make preview
+```
+
+Once changes are pushed to the repo, the site will update automatically thanks to GitHub pages. Data changes need a manual `make deploy` from anyone with push access, so that the `csv`->`md` conversion will be done first.
 
 ## Thanks
 
-[tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort) and to the [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
+A shoutout to [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort), and also the [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
 
  - [Kevin van Zonneveld](https://github.com/kvz)
 
