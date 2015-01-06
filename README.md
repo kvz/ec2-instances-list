@@ -19,9 +19,12 @@ With the CSV we can generate a [Markdown table](https://github.com/transloadit/e
 If you want to do deeper analysis, you can import the CSV into your database or favorite spreadsheet editor.
 
 <a name="data"></a>
-<div class="sortable" markdown="1">
-{% include ec2-instances-list.md %}
+
+<div class="sortable">
+{% capture list %}{% include_relative ec2-instances-list.md %}{% endcapture %}
+{{ list | markdownify }}
 </div>
+
 
 ## Notes
 
