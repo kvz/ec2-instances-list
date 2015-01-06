@@ -7,7 +7,7 @@ install:
 build: install
 	git pull
 	# Compensate for trailing whitespace left by Advanced CSV's justify
-	gsed -i ec2-instances-list.csv -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'
+	gsed -i ec2-instances-list.csv -e 's/^[ \t]*//g;s/[ \t]*$$//g' -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'
 	csvtomd ec2-instances-list.csv > ec2-instances-list.md
 	cp -af ec2-instances-list.md _includes/
 
