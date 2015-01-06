@@ -52,7 +52,7 @@ Site changes go live immediately thanks to GitHub pages. Data changes still need
 
 ## Thanks
 
-To [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort) and to our contributors so far:
+To [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort) and to our [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
 
  - [Kevin van Zonneveld](https://github.com/kvz)
 
