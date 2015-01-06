@@ -58,7 +58,7 @@ If you prefer hacking locally in SublimeText, the [Advanced CSV](https://github.
 
 ![](./images/sublime-text.png)
 
-If you want to work on this site, the same repo has a [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) that also serves as the homepage. It includes the generated `./ec2-instances-list.md` as our table.  
+If you want to work on this site, the same repo holding the CSV has a [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) that also serves as a homepage. It includes the generated `./ec2-instances-list.md` as our table.  
 Overriding CSS can be done in `./assets/app.css` and the layout is in `./_layouts`.
 
 Site changes are deployed automatically thanks to GitHub pages. Data changes still need a `make deploy` from anyone with push access, so that the `csv`->`md` conversion can take place.
