@@ -63,7 +63,7 @@ If you prefer hacking locally in SublimeText, the [Advanced CSV](https://github.
 
 ## Contribute to Webpage
 
-Our repository's [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) is turned into this webpage, sourcing `./ec2-instances-list.md` for the table. Overriding CSS can be done in `./assets/app.css` and the layout is in `./_layouts/default.html`.
+Our repository's [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) is turned into this webpage, sourcing `./ec2-instances-list.md` for the table. Overriding CSS can be done in `./stylesheets/app.css` and the layout is in `./_layouts/default.html`.
 
 That's all. If you have Jekyll installed, you can preview changes locally via
 
