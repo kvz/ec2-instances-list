@@ -1,7 +1,6 @@
 ---
 layout: default
 title: EC2 Instances List
-permalink: /
 ---
 
 {% include README.md %}
