@@ -16,9 +16,9 @@ Machines that perform 20% slower are for instance priced 40% cheaper. Assuming y
 
 At [Transloadit](https://transloadit.com) we're considering this life-hack, but with information about Amazon EC2 instances scattered [across](https://aws.amazon.com/blogs/aws/new-c4-instances/) [different](https://aws.amazon.com/ec2/pricing/) [pages](https://aws.amazon.com/ec2/previous-generation/) and different tables within those pages, it's not exactly easy to compare and discover what (for starters, on paper) offers the best bang for our buck.
 
-So we decided to collect the metrics, add some of our own (like monthly costs or net ephemeral storage) and put them in a community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
+So we decided to collect the metrics, add some of our own (like monthly costs or net ephemeral storage) and put them in a community maintained [CSV file](https://github.com/kvz/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
 
-With the CSV we can generate a [Markdown table](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present [this sortable HTML table](https://transloadit.github.io/ec2-instances-list#data) for quick comparisions.
+With the CSV we can generate a [Markdown table](https://github.com/kvz/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present [this sortable HTML table](https://kvz.github.io/ec2-instances-list#data) for quick comparisions.
 
 If you want to do deeper analysis, you can import the CSV into your database or favorite spreadsheet editor.
 
@@ -57,7 +57,7 @@ Networking speed is a megabit estimation based on Amazon's rather vague "low to 
 
 ## Contribute Data
 
-If you have improvements you can [directly hack on ./ec2-instances-list.csv](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/ec2-instances-list.csv)
+If you have improvements you can [directly hack on ./ec2-instances-list.csv](https://github.com/kvz/ec2-instances-list/edit/gh-pages/ec2-instances-list.csv)
 
 At the expense of some extra typing, we prefer a denormalized CSV so it's easy to distribute and does not require additional dependencies or formulas.
 
@@ -67,7 +67,7 @@ If you prefer hacking locally in SublimeText, the [Advanced CSV](https://github.
 
 ## Contribute to Webpage
 
-Our repository's [README.md](https://github.com/transloadit/ec2-instances-list/edit/gh-pages/README.md) is turned into this webpage, sourcing `./ec2-instances-list.md` for the table. Overriding CSS can be done in `./stylesheets/app.css` and the layout is in `./_layouts/default.html`.
+Our repository's [README.md](https://github.com/kvz/ec2-instances-list/edit/gh-pages/README.md) is turned into this webpage, sourcing `./ec2-instances-list.md` for the table. Overriding CSS can be done in `./stylesheets/app.css` and the layout is in `./_layouts/default.html`.
 
 If you have Jekyll installed, you can preview changes locally via `make preview` and navigating to http://127.0.0.1:4000.
 
@@ -75,7 +75,7 @@ Once changes are pushed to the repo, the site will update automatically thanks t
 
 ## Thanks
 
-A shoutout to [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort), and also the [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
+A shoutout to [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort), and also the [contributors](https://github.com/kvz/ec2-instances-list/graphs/contributors) so far:
 
  - [Kevin van Zonneveld](https://github.com/kvz)
  - [Tim Koschützki](https://github.com/tim-kos)
