@@ -1,15 +1,14 @@
 SHELL := /usr/bin/env bash
 
 install:
-	brew install python3 # 3.4+ required so pip3 is included
+	brew install gnu-sed python3 # 3.4+ required so pip3 is included
 	pip3 install csvtomd
 
 build: install
 	git pull
 	# Compensate for trailing whitespace left by Advanced CSV's justify
-	cat ec2-instances-list.csv | sed -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'> tmp.csv
-	csvtomd tmp.csv > ec2-instances-list.md
-	rm -f tmp.csv
+	gsed -i ec2-instances-list.csv -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'
+	csvtomd ec2-instances-list.csv > ec2-instances-list.md
 	cp -af ec2-instances-list.md _includes/
 
 preview: build
