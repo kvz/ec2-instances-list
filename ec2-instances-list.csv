@@ -1,38 +1,38 @@
-name       ,vcpu,ecu ,ram   ,eph_devices      ,eph_storage      ,network        ,price ,spot      ,price_mo     ,spot_mo           ,generation,family
-t1.micro   ,1   ,0.1 ,0.615 ,N/A              ,0                ,10             ,$0.020,$0.0031   ,$14.8800     ,$2.3064           ,1         ,General Purpose
-m1.small   ,1   ,1   ,1.7   ,1 x 160          ,160              ,50             ,$0.044,$0.0071   ,$32.7360     ,$5.2824           ,1         ,General Purpose
-m1.medium  ,1   ,2   ,3.75  ,1 x 410          ,410              ,100            ,$0.087,$0.0081   ,$64.7280     ,$6.0264           ,1         ,General Purpose
-m1.large   ,2   ,4   ,7.5   ,2 x 420          ,420              ,100            ,$0.175,$0.0161   ,$130.2000    ,$11.9784          ,1         ,General Purpose
-m1.xlarge  ,4   ,8   ,15    ,4 x 420          ,1680             ,1000           ,$0.350,$0.0330   ,$260.4000    ,$24.5520          ,1         ,General Purpose
-c1.medium  ,2   ,5   ,1.7   ,1 x 350          ,350              ,100            ,$0.130,$0.0160   ,$96.7200     ,$11.9040          ,1         ,Compute Optimized
-c1.xlarge  ,8   ,20  ,7     ,4 x 420          ,1680             ,1000           ,$0.520,$0.0600   ,$386.8800    ,$44.6400          ,1         ,Compute Optimized
-cg1.4xlarge,16  ,33.5,22.5  ,2 x 840          ,1680             ,10000          ,$2.100,          ,$1562.4000   ,                  ,1         ,GPU Instances
-cr1.8xlarge,32  ,88  ,244   ,2 x 120 SSD      ,240              ,10000          ,$3.500,          ,$2604.0000   ,                  ,1         ,Memory Optimized
-hi1.4xlarge,16  ,35  ,60.5  ,2 x 1024 SSD     ,2048             ,10000          ,$3.100,          ,$2306.4000   ,                  ,1         ,Storage Optimized
-hs1.8xlarge,16  ,35  ,117   ,24 x 2048        ,49152            ,100            ,$4.600,$0.1300   ,$3422.4000   ,$96.7200          ,1         ,Storage Optimized
-t2.micro   ,1   ,0.1 ,1     ,N/A              ,0                ,75             ,$0.013,          ,$9.6720      ,                  ,2         ,General Purpose
-t2.small   ,1   ,0.2 ,2     ,N/A              ,0                ,75             ,$0.026,          ,$19.3440     ,                  ,2         ,General Purpose
-t2.medium  ,2   ,0.3 ,4     ,N/A              ,0                ,75             ,$0.052,          ,$38.6880     ,                  ,2         ,General Purpose
-m2.xlarge  ,2   ,6.5 ,17.1  ,1 x 420          ,420              ,100            ,$0.245,          ,$182.2800    ,                  ,2         ,Memory Optimized
-m2.2xlarge ,4   ,13  ,34.2  ,1 x 850          ,850              ,100            ,$0.490,          ,$364.5600    ,                  ,2         ,Memory Optimized
-m2.4xlarge ,8   ,26  ,68.4  ,2 x 840          ,1680             ,1000           ,$0.980,          ,$729.1200    ,                  ,2         ,Memory Optimized
-g2.2xlarge ,8   ,26  ,15    ,1 x 60 SSD       ,60               ,1000           ,$0.650,$0.0600   ,$483.6000    ,$44.6400          ,2         ,GPU Instances
-i2.xlarge  ,4   ,14  ,30.5  ,1 x 800 SSD      ,800              ,100            ,$0.853,          ,$634.6320    ,                  ,2         ,Storage Optimized
-i2.2xlarge ,8   ,27  ,61    ,2 x 800 SSD      ,1600             ,1000           ,$1.705,          ,$1268.5200   ,                  ,2         ,Storage Optimized
-i2.4xlarge ,16  ,53  ,122   ,4 x 800 SSD      ,3200             ,1000           ,$3.410,          ,$2537.0400   ,                  ,2         ,Storage Optimized
-i2.8xlarge ,32  ,104 ,244   ,8 x 800 SSD      ,6400             ,100            ,$6.820,          ,$5074.0800   ,                  ,2         ,Storage Optimized
-cc2.8xlarge,32  ,88  ,60.5  ,4 x 840          ,3360             ,10000          ,$2.000,$0.2000   ,$1488.0000   ,$148.8000         ,2         ,Compute Optimized
-m3.medium  ,1   ,3   ,3.75  ,1 x 4 SSD        ,4                ,100            ,$0.070,$0.1100   ,$52.0800     ,$81.8400          ,3         ,General Purpose
-m3.large   ,2   ,6.5 ,7.5   ,1 x 32 SSD       ,32               ,100            ,$0.140,$0.2000   ,$104.1600    ,$148.8000         ,3         ,General Purpose
-m3.xlarge  ,4   ,13  ,15    ,2 x 40 SSD       ,80               ,1000           ,$0.280,$0.4500   ,$208.3200    ,$334.8000         ,3         ,General Purpose
-m3.2xlarge ,8   ,26  ,30    ,2 x 80 SSD       ,160              ,1000           ,$0.560,$1.0000   ,$416.6400    ,$744.0000         ,3         ,General Purpose
-c3.large   ,2   ,7   ,3.75  ,2 x 16 SSD       ,32               ,100            ,$0.105,$0.0160   ,$78.1200     ,$11.9040          ,3         ,Compute Optimized
-c3.xlarge  ,4   ,14  ,7.5   ,2 x 40 SSD       ,80               ,100            ,$0.210,$0.0300   ,$156.2400    ,$22.3200          ,3         ,Compute Optimized
-c3.2xlarge ,8   ,28  ,15    ,2 x 80 SSD       ,160              ,1000           ,$0.420,$0.0600   ,$312.4800    ,$44.6400          ,3         ,Compute Optimized
-c3.4xlarge ,16  ,55  ,30    ,2 x 160 SSD      ,320              ,1000           ,$0.840,$0.1300   ,$624.9600    ,$96.7200          ,3         ,Compute Optimized
-c3.8xlarge ,32  ,108 ,60    ,2 x 320 SSD      ,640              ,10000          ,$1.680,$0.2600   ,$1249.9200   ,$193.4400         ,3         ,Compute Optimized
-r3.large   ,2   ,6.5 ,15    ,1 x 32 SSD       ,32               ,100            ,$0.175,$0.0160   ,$130.2000    ,$11.9040          ,3         ,Memory Optimized
-r3.xlarge  ,4   ,13  ,30.5  ,1 x 80 SSD       ,80               ,100            ,$0.350,$0.0300   ,$260.4000    ,$22.3200          ,3         ,Memory Optimized
-r3.2xlarge ,8   ,26  ,61    ,1 x 160 SSD      ,160              ,1000           ,$0.700,$0.0600   ,$520.8000    ,$44.6400          ,3         ,Memory Optimized
-r3.4xlarge ,16  ,52  ,122   ,1 x 320 SSD      ,320              ,1000           ,$1.400,$0.1300   ,$1041.6000   ,$96.7200          ,3         ,Memory Optimized
-r3.8xlarge ,32  ,104 ,244   ,2 x 320 SSD      ,640              ,10000          ,$2.800,$0.2600   ,$2083.2000   ,$193.4400         ,3         ,Memory Optimized
+name       ,ecu ,vcpu,ram   ,eph_devices      ,eph_storage      ,network        ,generation,family           ,price ,spot      ,price_mo     ,spot_mo
+c1.medium  ,5   ,2   ,1.7   ,1 x 350          ,350              ,100            ,1         ,Compute Optimized,$0.130,$0.0160   ,$96.7200     ,$11.9040
+c1.xlarge  ,20  ,8   ,7     ,4 x 420          ,1680             ,1000           ,1         ,Compute Optimized,$0.520,$0.0600   ,$386.8800    ,$44.6400
+c3.2xlarge ,28  ,8   ,15    ,2 x 80 SSD       ,160              ,1000           ,3         ,Compute Optimized,$0.420,$0.0600   ,$312.4800    ,$44.6400
+c3.4xlarge ,55  ,16  ,30    ,2 x 160 SSD      ,320              ,1000           ,3         ,Compute Optimized,$0.840,$0.1300   ,$624.9600    ,$96.7200
+c3.8xlarge ,108 ,32  ,60    ,2 x 320 SSD      ,640              ,10000          ,3         ,Compute Optimized,$1.680,$0.2600   ,$1249.9200   ,$193.4400
+c3.large   ,7   ,2   ,3.75  ,2 x 16 SSD       ,32               ,100            ,3         ,Compute Optimized,$0.105,$0.0160   ,$78.1200     ,$11.9040
+c3.xlarge  ,14  ,4   ,7.5   ,2 x 40 SSD       ,80               ,100            ,3         ,Compute Optimized,$0.210,$0.0300   ,$156.2400    ,$22.3200
+cc2.8xlarge,88  ,32  ,60.5  ,4 x 840          ,3360             ,10000          ,2         ,Compute Optimized,$2.000,$0.2000   ,$1488.0000   ,$148.8000
+cg1.4xlarge,33.5,16  ,22.5  ,2 x 840          ,1680             ,10000          ,1         ,GPU Instances    ,$2.100,          ,$1562.4000   ,
+cr1.8xlarge,88  ,32  ,244   ,2 x 120 SSD      ,240              ,10000          ,1         ,Memory Optimized ,$3.500,          ,$2604.0000   ,
+g2.2xlarge ,26  ,8   ,15    ,1 x 60 SSD       ,60               ,1000           ,2         ,GPU Instances    ,$0.650,$0.0600   ,$483.6000    ,$44.6400
+hi1.4xlarge,35  ,16  ,60.5  ,2 x 1024 SSD     ,2048             ,10000          ,1         ,Storage Optimized,$3.100,          ,$2306.4000   ,
+hs1.8xlarge,35  ,16  ,117   ,24 x 2048        ,49152            ,100            ,1         ,Storage Optimized,$4.600,$0.1300   ,$3422.4000   ,$96.7200
+i2.2xlarge ,27  ,8   ,61    ,2 x 800 SSD      ,1600             ,1000           ,2         ,Storage Optimized,$1.705,          ,$1268.5200   ,
+i2.4xlarge ,53  ,16  ,122   ,4 x 800 SSD      ,3200             ,1000           ,2         ,Storage Optimized,$3.410,          ,$2537.0400   ,
+i2.8xlarge ,104 ,32  ,244   ,8 x 800 SSD      ,6400             ,100            ,2         ,Storage Optimized,$6.820,          ,$5074.0800   ,
+i2.xlarge  ,14  ,4   ,30.5  ,1 x 800 SSD      ,800              ,100            ,2         ,Storage Optimized,$0.853,          ,$634.6320    ,
+m1.large   ,4   ,2   ,7.5   ,2 x 420          ,420              ,100            ,1         ,General Purpose  ,$0.175,$0.0161   ,$130.2000    ,$11.9784
+m1.medium  ,2   ,1   ,3.75  ,1 x 410          ,410              ,100            ,1         ,General Purpose  ,$0.087,$0.0081   ,$64.7280     ,$6.0264
+m1.small   ,1   ,1   ,1.7   ,1 x 160          ,160              ,50             ,1         ,General Purpose  ,$0.044,$0.0071   ,$32.7360     ,$5.2824
+m1.xlarge  ,8   ,4   ,15    ,4 x 420          ,1680             ,1000           ,1         ,General Purpose  ,$0.350,$0.0330   ,$260.4000    ,$24.5520
+m2.2xlarge ,13  ,4   ,34.2  ,1 x 850          ,850              ,100            ,2         ,Memory Optimized ,$0.490,          ,$364.5600    ,
+m2.4xlarge ,26  ,8   ,68.4  ,2 x 840          ,1680             ,1000           ,2         ,Memory Optimized ,$0.980,          ,$729.1200    ,
+m2.xlarge  ,6.5 ,2   ,17.1  ,1 x 420          ,420              ,100            ,2         ,Memory Optimized ,$0.245,          ,$182.2800    ,
+m3.2xlarge ,26  ,8   ,30    ,2 x 80 SSD       ,160              ,1000           ,3         ,General Purpose  ,$0.560,$1.0000   ,$416.6400    ,$744.0000
+m3.large   ,6.5 ,2   ,7.5   ,1 x 32 SSD       ,32               ,100            ,3         ,General Purpose  ,$0.140,$0.2000   ,$104.1600    ,$148.8000
+m3.medium  ,3   ,1   ,3.75  ,1 x 4 SSD        ,4                ,100            ,3         ,General Purpose  ,$0.070,$0.1100   ,$52.0800     ,$81.8400
+m3.xlarge  ,13  ,4   ,15    ,2 x 40 SSD       ,80               ,1000           ,3         ,General Purpose  ,$0.280,$0.4500   ,$208.3200    ,$334.8000
+r3.2xlarge ,26  ,8   ,61    ,1 x 160 SSD      ,160              ,1000           ,3         ,Memory Optimized ,$0.700,$0.0600   ,$520.8000    ,$44.6400
+r3.4xlarge ,52  ,16  ,122   ,1 x 320 SSD      ,320              ,1000           ,3         ,Memory Optimized ,$1.400,$0.1300   ,$1041.6000   ,$96.7200
+r3.8xlarge ,104 ,32  ,244   ,2 x 320 SSD      ,640              ,10000          ,3         ,Memory Optimized ,$2.800,$0.2600   ,$2083.2000   ,$193.4400
+r3.large   ,6.5 ,2   ,15    ,1 x 32 SSD       ,32               ,100            ,3         ,Memory Optimized ,$0.175,$0.0160   ,$130.2000    ,$11.9040
+r3.xlarge  ,13  ,4   ,30.5  ,1 x 80 SSD       ,80               ,100            ,3         ,Memory Optimized ,$0.350,$0.0300   ,$260.4000    ,$22.3200
+t1.micro   ,0.1 ,1   ,0.615 ,N/A              ,0                ,10             ,1         ,General Purpose  ,$0.020,$0.0031   ,$14.8800     ,$2.3064
+t2.medium  ,0.3 ,2   ,4     ,N/A              ,0                ,75             ,2         ,General Purpose  ,$0.052,          ,$38.6880     ,
+t2.micro   ,0.1 ,1   ,1     ,N/A              ,0                ,75             ,2         ,General Purpose  ,$0.013,          ,$9.6720      ,
+t2.small   ,0.2 ,1   ,2     ,N/A              ,0                ,75             ,2         ,General Purpose  ,$0.026,          ,$19.3440     ,

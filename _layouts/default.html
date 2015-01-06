@@ -57,8 +57,13 @@
 <script src="./assets/tablesort.js"></script>
 <script type="text/javascript">
   var table = document.getElementsByTagName("table")[0];
-  new Tablesort(table, {
 
+  // Sort on ECU by default
+  var th = table.getElementsByTagName("th")[1];
+  th.className = 'sort-default sort-down';
+
+  new Tablesort(table, {
+    'ascending': true
   });
 </script>
 </html>
