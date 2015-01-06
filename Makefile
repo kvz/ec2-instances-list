@@ -17,6 +17,8 @@ preview: build
 deploy: build
 	git add --all .
 	git commit -am "Update site"
+	git pull
+	git push
 
 .PHONY: \
 	install \
