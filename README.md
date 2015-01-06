@@ -74,6 +74,7 @@ Once changes are pushed to the repo, the site will update automatically thanks t
 A shoutout to [tristen](https://github.com/tristen) for an excellent [tablesort](https://github.com/tristen/tablesort), and also the [contributors](https://github.com/transloadit/ec2-instances-list/graphs/contributors) so far:
 
  - [Kevin van Zonneveld](https://github.com/kvz)
+ - [Tim Koschützki](https://github.com/tim-kos)
 
 
 
