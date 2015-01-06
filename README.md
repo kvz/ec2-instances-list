@@ -6,6 +6,10 @@ permalink: /
 
 # ec2-instances-list
 
+This was a cool project until we found out about [ec2instances.info](http://www.ec2instances.info/) : ) That's one night of our lives we'll never get back. Thanks [@Savant](https://twitter.com/savant/status/552461722251190272)
+
+-----
+
 Trying to find the optimal EC2 instance types for workloads doesn't automatically mean get the latest/biggest box. You might be able to squeeze more performance out of your dollar if you deploy a multitude of smaller boxes.
 
 Machines that perform 20% slower are for instance priced 40% cheaper. Assuming your budget is finite and your platform scalable, you might be able to gain a higher total performance by using older machines.
