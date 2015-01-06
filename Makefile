@@ -5,6 +5,7 @@ install:
 	pip3 install csvtomd
 
 build: install
+	# Compensate for trailing whitespace left by Advanced CSV's justify
 	cat ec2-instances-list.csv | sed -e :a -e '/^ *\n*$$/{$$d;N;};/\n *$$/ba'> tmp.csv
 	csvtomd tmp.csv > ec2-instances-list.md
 	rm -f tmp.csv
