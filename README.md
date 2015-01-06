@@ -6,7 +6,7 @@ permalink: /
 
 # ec2-instances-list
 
-This was a cool project until we found out about [ec2instances.info](http://www.ec2instances.info/) : ) That's one night of our lives we'll never get back. Thanks [@Savant](https://twitter.com/savant/status/552461722251190272)
+This was a cool project until we found out about [ec2instances.info](http://www.ec2instances.info/) : ) That's one night of our lives we'll never get back. Thanks [@Savant](https://twitter.com/savant/status/552461722251190272) : )
 
 -----
 
