@@ -4,12 +4,16 @@ div.sortable table {
 }
 
 div.sortable th, div.sortable td {
-  font-size: 90%;
+  font-family: monospace;
   padding: 1px 6px;
+}
+div.sortable th {
+  font-size: 90%;
+  vertical-align: top;
 }
 div.sortable td {
   white-space: nowrap;
-  font-size: 84%;
+  font-size: 76%;
 }
 
 div.sortable thead {
