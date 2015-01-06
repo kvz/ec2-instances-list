@@ -14,10 +14,11 @@ At [Transloadit](https://transloadit.com) we're considering this life-hack, but 
 
 So we decided to collect the metrics, add some of our own (like monthly costs or net ephemeral storage) and put them in a community maintained [CSV file](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.csv) on GitHub.
 
-With the CSV we can generate a [Markdown table](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present [this sortable HTML table](https://transloadit.github.io/ec2-instances-list) for quick comparisions.
+With the CSV we can generate a [Markdown table](https://github.com/transloadit/ec2-instances-list/blob/gh-pages/ec2-instances-list.md), and can then present [this sortable HTML table](https://transloadit.github.io/ec2-instances-list#data) for quick comparisions.
 
 If you want to do deeper analysis, you can import the CSV into your database or favorite spreadsheet editor.
 
+<a name="data"></a>
 <div class="sortable" markdown="1">
 {% include ec2-instances-list.md %}
 </div>
