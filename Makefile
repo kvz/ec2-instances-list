@@ -16,7 +16,7 @@ preview: build
 
 deploy: build
 	git add --all .
-	git commit -am "Update site"
+	git commit -am "Update site" || true
 	git pull
 	git push
 
